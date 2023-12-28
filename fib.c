@@ -1,16 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int n,x,y,sum;
-    printf("Enter the max size ");
+    int t1=0,t2=1,next,n;
+    printf("Enter the term ");
     scanf("%d",&n);
-    x=0;y=1;sum=0;
-    while(sum<=n)
+    // printing first two number
+    printf("%d %d",t1,t2);
+    // printing rest number
+    for(int i=3;i<=n;i++)
     {
-        printf("%d ",sum);
-        x=y;
-        y=sum;
-        sum=x+y;
+        next=t1+t2;
+        t1=t2;
+        t2=next;
+        printf("%d ",next);
     }
-
+    return 0;
 }
