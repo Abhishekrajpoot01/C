@@ -7,10 +7,9 @@ int main()
     int k;
     k=strlen(A);
      printf("The length of string using 'strlen'() is %d\n",k);
-    int i=0,l=0;             
-    while(A[i]!='\0')       
+    int i,l=0;             
+    for(i=0;A[i]!='\0';i++)       
     {
-        i++;
         l++;
     }
     printf("The length of string without using 'strlen'() is %d",l);
