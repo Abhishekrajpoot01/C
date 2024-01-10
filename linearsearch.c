@@ -16,7 +16,6 @@ void main()
         {
             f=1;
             pos=i+1;
-            break;
         }
     }             
     if(f==1)
