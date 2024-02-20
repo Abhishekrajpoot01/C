@@ -1,0 +1,3 @@
+cd "f:\Program\C\" ; if ($?) { gcc filehandling2.c -o filehandling2 } ; if ($?) { .\filehandling2 }
+cd "f:\Program\C\" ; if ($?) { gcc filehandling2.c -o filehandling2 } ; if ($?) { .\filehandling2 }
+abhishek is a good bo

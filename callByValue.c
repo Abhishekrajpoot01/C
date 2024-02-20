@@ -1,10 +1,10 @@
 #include<stdio.h>
-void swap(int,x,int y);
+void swap(int x,int y);
 void main()
 {
     int a,b;
     printf("Enter two values ");
-    scanf("%d %d ",&a,&b);
+    scanf("%d %d",&a,&b);
     swap(a,b);
 }
 void swap(int x,int y)

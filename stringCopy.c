@@ -10,7 +10,7 @@ int main()
     {
         B[i]=A[i];
     }
-    B[i+1]='\0';
+    B[i]='\0';
     printf("The copied string in B is %s",B);
     return 0;
 }
